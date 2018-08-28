@@ -1,0 +1,2 @@
+2018-08-10 19:06:51,962 [DEBUG][outlook_send_mail][attachment][73] Attachments size is more than 20M, can not send with Outlook Mail
+2018-08-10 19:06:51,999 [DEBUG][outlook_send_mail][send][95] Send successfully

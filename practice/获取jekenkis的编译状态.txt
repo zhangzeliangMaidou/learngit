@@ -1,0 +1,78 @@
+背景：在通过python的API调用Jenkins，启动Jenkins的job任务时，是需要知道Jenkins的编译状态，获取编译状态为
+
+1
+status=server.get_build_info(jobname, get_number2)['result'] #jobname，为任务的job名称，get_number2为编译版本号
+　目前是以前项目中截取的代码，我连接Jenkins是用了两种方式，因为有一种方式不能进行编译job，另外一种获取其他数据有问题，也是一直存在的bug
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+def connet_jenkinsjob(self):  #连接Jenkins
+    server = Jenkins(jenkins_url, username=jenkins_user, password=jenkins_password,
+                     requester=CrumbRequester(username=jenkins_user, password=jenkins_password,
+                                              baseurl=jenkins_url))
+    return server
+ 
+def stats_jenkinsjob(self):#连接Jenkins
+    server = jenkins.Jenkins(jenkins_url, username=jenkins_user, password=jenkins_password)
+    return server
+def bulids_job(self):
+    global  get_number2
+    server = self.stats_jenkinsjob()
+    server_build = self.connet_jenkinsjob()
+ 　　　　server_build.build_job(jobname, params=param_dict)  # 待观察这个问题有解决方案不  进行项目的编译
+                sql = "update auto_caseList  SET runStart='运行中' WHERE id= '" + key + "'""
+                try:
+                   get_number2 = server.get_job_info(jobname)['nextBuildNumber'] #获取下一个编译版本号
+                   get_number = server.get_job_info(jobname)['lastBuild']['number'] #获取编译的版本号
+                except Exception, e:
+                    print "首次创建所以获取不到编译的版本号", e
+                    self.mysql_uptate_operation(sql)
+                else:
+                    get_buildstats = server.get_build_info(jobname, get_number)['building']#获取编译的状态，是否在编译
+                    if get_buildstats == False:
+                        print "编译中，数据状态进行更新"
+                    else:
+                        print "没有编译"
+                finally:
+                    sleep(23) #一定要加，在启动编译后，不能马上获取编译状态，不然一直是编译成功，如果Jenkins编译失败是会在20-23S之间
+                    status=server.get_build_info(jobname, get_number2)['result']#获取编译的状态，编译是否成功，如果不成功，就会返回FAILURE，编译成功是返回NONE
+                    if status == "FAILURE":
+                        print "构建出错: %s | 构建项目编号:%s" % (jobname, get_number2)
+                        sql = "update auto_caseList  SET runStart='构建出错' WHERE id= '" + key + "'""
+                        self.mysql_uptate_operation(sql)
+                    else:
+                        print "构建成功:%s | 构建项目编号:%s" % (jobname, get_number2)

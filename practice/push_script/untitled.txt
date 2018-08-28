@@ -1,0 +1,1164 @@
+git push ssh://lijunwei@taishan.n.xiaomi.com:29418/abl/tianocore/edk2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/bootable/bootloader/edk2" revision="c553cf847768e6457a24b3e9dc88388f284d892b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/bsp/cit HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Cit" revision="1d1d38e64889fa51f47769fc33ad13a18bd9d864"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/common
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/arm64" revision="392eec3cb4c64721cd5b76fa36535954b5d45309"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/armv7-a-neon" revision="a438913160c744d266326f82f25f0a1304221fd0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/car" revision="4235adf8f3d9c6750d6558a522d3196bfec7ea0e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/common" revision="0fa99b259f1e2637145ff0bd0e9f1fb842459289"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/goldfish" revision="e9c7400682adf1a99313f3dba24ae3cb92bca760"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/goldfish-opengl" revision="2e54daf5e676f7794f190586cef71ab2733021c0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/mini-emulator-arm64" revision="dabdb42838bca2aa3f0df77fd08d37e337fceda7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/mini-emulator-armv7-a-neon" revision="258706fc0ddcf2c9be48967f4766ec90efb736a5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/mini-emulator-x86" revision="65d59e2be2cfd713513a05d80a0f75794ab60579"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/mini-emulator-x86_64" revision="d57c0a07e17a7e1cb9067681716bfdcdecdf22e7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/qemu" revision="97ef4f962aec451b00bfe562c1cb67471c4563d9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/x86" revision="6d4527312735e4edae6e2d10b8087a935fee8be6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/generic/x86_64" revision="734d9d725e200acf7dcb779896955299b86ebb86"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/google/atv" revision="ebeb095713ef9e217bcd96e85c937a91ffb9d0ed"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/google/contexthub" revision="6bc90070dd36985229626927607045986cc40437"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/google/vrservices" revision="bd77aef63c09cbcb0024c13df414360920fd75a1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/qcom/common" revision="c7ed61ad764f4c3c01dd515da513aff05e12ca93">
+    <copyfile dest="build.sh" src="build.sh"/>
+    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/qcom/sepolicy" revision="b50b41e2ebcbf29c7eedf66a27755402ca15605c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/sample" revision="8b55985d7f110c5639b0917dc71cbf58aacf8c24"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/xiaomi/carbon" revision="dcb3cb3efccc67994795c4ae2a62a1c0383c6982"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/xiaomi/jason" revision="114e1d7959ccc0f852d83b90bf3c5b3534122101"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/xiaomi/nitrogen" revision="cd298b3303997829f5b4473f7fab244f60646782"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/device/xiaomi/sdm660_common" revision="c1caa717d105acd181952d422bda037a2b9c218a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/kernel/msm-4.4" revision="713ba13dbfa8e62c5ac3f811e336a2ce4705ae31"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/art HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/art" revision="0c1b09004daaf0303efcb6c311762a6f639e6d8d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/bionic HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/bionic" revision="390d8938a6a7f0a8ecd7052b647fbc9d9180f6fc"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/bootable/recovery HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/bootable/recovery" revision="400510ffb9d9f0f4fd94e71e2f9e8750294f2208"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/build HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/build/make" revision="4b004ba05a11e404bb9facc12fbc47f88b02b6c7">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/build/blueprint HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/build/blueprint" revision="9c203c9744e46f5421319fdf6240a788a09c91d2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/build/kati HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/build/kati" revision="e7c4743b376c1a05ce779e4d626e49af8e6c1045"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/build/soong HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/build/soong" revision="f61f9a656382b00034ddb5af5bed7f0639b86468">
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+  </project>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/cts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/cts" revision="1eb1dc33e02a2eea1a46c0aed8bd18e225c5f78e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/dalvik HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/dalvik" revision="4a6f7461dbcda7a975730b9ce4f2e70eb5cdded6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/developers/build HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/developers/build" revision="6f1bbd6b9589818154d555f216e800223ce5d063"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/developers/demos HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/developers/demos" revision="7bd7834eee082f32ae8eaab9bf014d77c6cf521a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/developers/samples/android HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/developers/samples/android" revision="a8c6307fae854e21a66498aa3c1badd717ea375f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/development HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/development" revision="862fea5734a38382df4b5f6c483a4aad98b2c627"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/docs/source.android.com HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/docs/source.android.com" revision="68e91911971bc0f0a4d766824021805965d6c2e3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ImageMagick HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ImageMagick" revision="6d5e443d5f090be54f0f1623171bf83102c0e688"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/Microsoft-GSL HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/Microsoft-GSL" revision="c7231a8b061cb44839292cf4de1aa2b8d3fc165f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/aac HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/aac" revision="fae0c184cfb75487a5fd26066c70dc9331eeb69c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/abi-compliance-checker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/abi-compliance-checker" revision="2cce41de7ef1c23f88acc611becf1431278f78e1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/abi-dumper HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/abi-dumper" revision="e062b1e470fe01b3e4ab1c108505cf0ae307791c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/android-clat HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/android-clat" revision="1bd2055e1c39827a085699ad468327992f69cdbd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/androidplot HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/androidplot" revision="c66727ebf001607cee14521c35bc852b55fd9845"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ant-glob HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ant-glob" revision="a73228afa9540b9c5518d360c5ae630bb634f975"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ant-wireless/ant_native HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ant-wireless/ant_native" revision="22f0090e8983d0471be29b8a06ff09db76657a96"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ant-wireless/ant_service HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ant-wireless/ant_service" revision="b616838fc8c89085742a542d528e2fd55d679ef9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/antlr HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/antlr" revision="dd5fa6d48b827c5d98b625adbc209f4a05567534"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/apache-commons-math HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/apache-commons-math" revision="18f62fca59d387e3c1ccd8f80087d9c9af40bcc8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/apache-harmony HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/apache-harmony" revision="774193bf220fede811546daf71942dee8983f8d9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/apache-http HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/apache-http" revision="4f1eab48da53c3770282a9b19fc5b03168cae86e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/apache-xml HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/apache-xml" revision="31d7642eb8f37a9166db7f1c9e313ab651bdb8ba"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/archive-patcher HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/archive-patcher" revision="a42e3595b6802ed165bd3a1580cfb137c0042f8b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/arm-neon-tests HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/arm-neon-tests" revision="104e2a662ec8443e9a7603b22efbb3b86c1e7094"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/autotest HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/autotest" revision="482a17394a56bc312aaa6d793471dd425d7e77fb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/avb HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/avb" revision="353dfc78236d342b3d0e9266c25a14ef142301d4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/bison HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/bison" revision="7467d52af437dd3dfea237a6865ab84bf258dee0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/blktrace HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/boringssl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/boringssl" revision="e9aacdc5f92ffe26d2e6f79731cd3a0d70d1fb61"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/bouncycastle HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/bouncycastle" revision="63182dda79f3c7deb6961964d91163ae0d7379ab"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/brctl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/brctl" revision="85130b403dea07b2230efed3287236fa0caefb1c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/bsdiff HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/bsdiff" revision="08c45b0da4b5f0f372b612797f4b01308a9ac9a4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/bzip2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/bzip2" revision="a535197905449c1f854e40b81a35f524a0b1479d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/c-ares HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/c-ares" revision="9f1b2827cb88c58a80c470a4bddb2485677ec57f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/caliper HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/caliper" revision="d39ccacab2ed7cc2c0085201786d28f9db78876a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/cblas HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/cblas" revision="53ffe068d9bf5f9b0507a659159dab7bd9c18a49"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/chromium-libpac HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/chromium-libpac" revision="8cdb94f0b2cf0923f65947880adda639c17f8fa9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/chromium-trace HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/chromium-trace" revision="e1c24ddb2b340fc6c6d947d6c5c9b1d17d5ed52b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/chromium-webview HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/chromium-webview" revision="560abd3cf829462f9536f1063a8e078881de21d6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/clang HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/clang" revision="9384444e3b4d407a9ab57bf1d54345340d00fe63"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/cmockery HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/cmockery" revision="9199c7bfafefea32d1884182fa655b6e4578c1c4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/compiler-rt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/compiler-rt" revision="ac68d5f7fab54780b5eb3e08e13e4fe540185f55"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/conscrypt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/conscrypt" revision="d91ab1457356e31049a1fa17ff374c3b6720abb7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/crcalc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/crcalc" revision="5559610bea3b267abef3273868f2d6b8c01409a5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/cros/system_api HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/cros/system_api" revision="ba7cea36567a224c52ba06f153d9a8f62a71c264"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/curl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/curl" revision="d004878701ab3a2287cbeb8979223fc04ceb0959"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dagger2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dagger2" revision="0fff30dbb251d3696a06a5ca2baf61bffaff8363"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/deqp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/deqp" revision="7d9b0d7b6ef5ff428d6c4b650c5f731bcdedf665"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/desugar HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/desugar" revision="cba5d1ca9f0d798ce116148d721430aaebb97585"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dexmaker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dexmaker" revision="c84b1c09bd952b27fb88f765214899d6ce01f1ed"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dhcpcd-6.8.2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dhcpcd-6.8.2" revision="b3e401ad788d3a42a9c7de524becfb665ec7b166"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dirac HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dirac" revision="d0c9ab43a64a140e6fada04bb03d55040875337f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dlmalloc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dlmalloc" revision="6661f3ca66b55d8f5a57b96fec97efaf8f3897a5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dng_sdk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dng_sdk" revision="4e9fd7f28e7be8edcd38e2a488b292fb3947d608"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dnsmasq HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dnsmasq" revision="9408a94e228961af17c1854d666c0dc7e882893f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/doclava HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/doclava" revision="ec52be54d3d9877687847b27b1d92df05c43c4b8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/donuts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/donuts" revision="005389fb31a67841b5de42f0d25fbfab843e208c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/drm_gralloc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/drm_gralloc" revision="f2936dc85a5f92d4dcdfa7b46066c9cd64086720"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/drm_hwcomposer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/drm_hwcomposer" revision="a9069d34280d63785cfb711904ebe1726d59ceb1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/droiddriver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/droiddriver" revision="2e4e0b562cba97949b296952fd8f2673dee89e2f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/dtc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/dtc" revision="ef2e6f5c6b16b7cc8cc18dacefcdf5de7af665e8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/e2fsprogs HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/e2fsprogs" revision="4e623a7baccaee9940c71aed00e256e4c4b5b8d5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/easymock HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/easymock" revision="8bc2748f2850c88ab6b86c6ceed1ce65bed5ee16"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ebtables HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ebtables" revision="3f430ac843caa90f25c5b4f695cf350beadec671"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/eclipse-basebuilder HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/eclipse-basebuilder" revision="076f46888ed346775b8efc564d7694063ef5eea7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/eclipse-windowbuilder HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/eclipse-windowbuilder" revision="c533332008088ee5f61745b724361fbde5b7e770"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/eigen HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/eigen" revision="18b15cce3281bf89ec83e23dc04b700f585efc8c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/elfutils HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/elfutils" revision="f1f212563ee672a1eca4238a5cc6ff1e969ec071"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/emma HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/emma" revision="deb5711b2635ee9d332605e2e00b63b32bed6777"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/esd HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/esd" revision="943c42b6f8e9afe821744aa4c039f4943ebf29f5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/expat HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/expat" revision="29f52c8123d3956e3e52a0c5e8441dedf22a20ee"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/eyes-free HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/f2fs-tools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/f2fs-tools" revision="91fa4da13f0627556bcf190a4164cc0282ee007d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/fdlibm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/fdlibm" revision="fcd17254a9e59ceb0420d4a2faf29db6b004c443"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/fec HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/fec" revision="4342555427f5bb0788dfacd1eb07d2876afab733"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/fio HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/fio" revision="8e4fcef29b6e6f22a27c4a80ec663197e3c7fcc5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/flac HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/flac" revision="4f476464be04a4a583a93725af197e797cee0d39"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/flatbuffers HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/flatbuffers" revision="83d6225e9b642ea069023e45a943d3e7f916fb62"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/fmtlib HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/fmtlib" revision="f4d6768e2595b881a146e41e275f77203db9bc56"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/fonttools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/fonttools" revision="fede58680958e96e6e8f61c3cc6282f798452c53"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/freetype HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/freetype" revision="5bc39ac6b1aba8b129ac279294f04fa311cc9798"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/fsck_msdos HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/fsck_msdos" revision="4103a4ab7d45b439b4f7297a2129a1ca45ec91dd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/gemmlowp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/gemmlowp" revision="583dbde5c404a50ccc0180a963e0af3b8130d41a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/giflib HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/giflib" revision="4219f10537c1f793b30d18f44d94c13f95dd8362"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/glide HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/glide" revision="31e64acd1e65045471124267a06241eff1f55d26"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-benchmark HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-benchmark" revision="483d43f5f689ce1ea8d864e24fb106c73d24080b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-breakpad HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-breakpad" revision="5702aec91e04d86b7e850d00243b6b9035b5923c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-fonts/carrois-gothic-sc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-fonts/carrois-gothic-sc" revision="0062a10458d4c357f3082d66bcb129d11913aaae"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-fonts/coming-soon HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-fonts/coming-soon" revision="2c5cb418c690815545bbb0316eae5fd33b9fc859"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-fonts/cutive-mono HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-fonts/cutive-mono" revision="bce2136662854076023066602526ba299e6556b2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-fonts/dancing-script HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-fonts/dancing-script" revision="7b6623bd54cee3e48ae8a4f477f616366643cc78"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/google-tv-pairing-protocol HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/google-tv-pairing-protocol" revision="7a5b2c7bd1f6c7847fa2dad591788177a59d6f74"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/googletest HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/googletest" revision="fdc75c3cd272560d9fb7aaf539708e7ae43299f5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/gptfdisk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/gptfdisk" revision="f36964241bdd1d1ceb2aa4377a940268ee98e440"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/guava HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/guava" revision="42dd6f38ba6cda54923e76acc55f5c89d9a13e56"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/guice HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/guice" revision="c94f47512257b4ce1d748451161fe93445bf9c9a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/hamcrest HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/hamcrest" revision="acdcb536f99925df6d73e2b1df0f9aac45682cb3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/harfbuzz_ng HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/harfbuzz_ng" revision="9d26079ea6b3e05fd346118eac4359e7cec76513"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/hyphenation-patterns HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/hyphenation-patterns" revision="b15c2497c295eee1d3c543fcca97271001640432"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/icu HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/icu" revision="97fd30a613abd2d91e0a0534f47bcf5fe6e3ecd7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ims HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ims" revision="2d3db2379dc7d29168b725ad31df31555bfbd6bf"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/iproute2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/iproute2" revision="e382c277e648b319e5b6dd6e68813b7b5a0b01f6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ipsec-tools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ipsec-tools" revision="c4531e5b09403a9954213dfb18d0deaac5badc12"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/iptables HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/iptables" revision="4f6adcf659d90f9f84f5b8e539485e9fdf7bac07"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/iputils HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/iputils" revision="b040eb07a270166190dcaa3920a637c2ea383970"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/iw HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/iw" revision="70f01f0185f68842a58d264ba97ee146dd2fc153"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jacoco HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jacoco" revision="6480b3453dca08bece4da67290b79a84c9f2dbc6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jarjar HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jarjar" revision="edbd51743ef6a0cb0b17097353d1225e14c747e9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/javasqlite HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/javasqlite" revision="ee41d81872eedc632f42bd231b95bc945690d159"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/javassist HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/javassist" revision="f7c4b954072e563b75f6910c25bb689bbf38a3d1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jcommander HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jcommander" revision="9a3ba316f5b73c3a19291b92534e990eec263e8b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jdiff HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jdiff" revision="178a31867169e7c622806020e7a5ce773c02c7c5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jemalloc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jemalloc" revision="42044ff5331d2f303e03986705e034847934d26f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jline HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jline" revision="74812032f8d8eddbef387f18c96de9e5c38b8fdb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jmdns HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jmdns" revision="0c71647deb7f7835c473fd3dfb45943083e47794"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jsilver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jsilver" revision="b9b84920ba47ddf7f15baa01c56b28e3d3f951ea"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jsmn HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jsmn" revision="358037da0e95ef7213c5a8c6a0be4508749e7be0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/json-c HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/json-c" revision="ddb98b237bb2ab875bcf3b6ad3ce3ffc36db749e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jsoncpp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jsoncpp" revision="06dbba13ea92eeecb84164fbde96e874fa975651"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jsr305 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jsr305" revision="3278bcfa33f28b1465f0b7212a2aeb855608b753"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/jsr330 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/jsr330" revision="d00e8235f22162768fbc8f17deb7abbcd30a94c5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/junit HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/junit" revision="719814ae3d3f181b3ef8fe3a78631480ea4852a3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/junit-params HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/junit-params" revision="528efe96c592bf7aab09ccf616aebd3a765cb999"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/kernel-headers HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/kernel-headers" revision="08e3a47170fffe2447430a04e01281ebc36fbfe2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/kmod HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/kmod" revision="4082ee0d1ad5ce92c5ea6fdc5ca08e89cdd9801d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ksoap2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ksoap2" revision="9fdc4a6bb2b882bd1d6c822d2ad0c66585d66ba9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libavc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libavc" revision="9910782f9dcc53a5ba691ee86c7b56f1591063fc"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libbrillo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libbrillo" revision="b29605b10b38ef93ceca84b56c092f3bb0b119c4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libcap HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libcap" revision="3328b782d9ebe50852e3b1327590ac8302756de6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libcap-ng HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libcap-ng" revision="835f318b9785a70415980fba96c34ee5c6b7e415"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libchrome HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libchrome" revision="8c2f763a775b1196ee59b8881ed067b26d285832"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libconstrainedcrypto HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libconstrainedcrypto" revision="fca75c837bebfbd51927156158de36fc517742f7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libcups HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libcups" revision="9423e649391b34827c11e06d957cfd7e91aec329"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libcxx HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libcxx" revision="a34118d822a2694fe8de6dc190b8f072e791288b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libcxxabi HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libcxxabi" revision="61f57a17bc4f212f8920cc3fdb05a0401674dc48"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libdaemon HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libdaemon" revision="e2f604066d97431c95856c73d7b9ee46b348d37e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libdivsufsort HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libdivsufsort" revision="2a896e7033ced391c57ec46c1d772b15417621a4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libdrm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libdrm" revision="8b23dd246019115f8dc33b3e14f1aa8c9d5376a5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libedit HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libedit" revision="67e14dfc833aafa400a3aad8cb329cbaec503445"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libese HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libese" revision="4a660d0a0087491253717ee73c7db7da110e91b0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libevent HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libevent" revision="f4fecd3fce0b82b3ae76d8949311e7d6461918b3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libexif HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libexif" revision="1689c992265c8f0682a361bbc84f239109a0dc75"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libgsm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libgsm" revision="d40db25927852c76198293e021bd392cd7c2de68"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libhevc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libhevc" revision="b487e906800dfcb4318cae76ace101ca9d762b54"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libjpeg-turbo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libjpeg-turbo" revision="453bfb06f29c022c9ed5779051bd517af6478855"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libldac HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libldac" revision="dbb3f6350f39b6d5e7f5abcda1031e8e256f9646"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/liblzf HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/liblzf" revision="a88b9629447deabe8697d2f8fd4cc70aa6e1b563"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libmicrohttpd HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libmicrohttpd" revision="1e68f5d827a859ba3b7ab6a70a60247e0b96afa5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libmojo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libmojo" revision="25d52424ec01ca2a092fd2de4f6e351e6f29cbad"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libmpeg2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libmpeg2" revision="f459de666638c157c72297b791d2f0518880544f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libmtp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libmtp" revision="7ed2065db3ab9851f47426f3a35ba7045ce528b2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libnetfilter_conntrack HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libnetfilter_conntrack" revision="43ac99b43e53db6e6defebf6dcb48b3dda1172ea"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libnfnetlink HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libnfnetlink" revision="8d3608b05c756e0c2e4b814843d0e4989c62aca2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libnl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libnl" revision="10db38e2ee3c6f9040063e7fcb573545c28e8d28"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libogg HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libogg" revision="6dba790f3372d03eee07c693789166ca9fa07b0a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libopus HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libopus" revision="f8c018bbe70b22693d105579d01574b6368377c4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libpcap HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libpcap" revision="8aa3ae47c5b44a04f365bf30bcb9d0b1b69d6478"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libphonenumber HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libphonenumber" revision="eadbaf8ba08dc13ecdb5e57bcfaec2f2248e7e4f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libpng HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libpng" revision="09dd34919c56660c710ec88b05efb161b2481498"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libtextclassifier HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libtextclassifier" revision="5718e204a5d0aa88296b61f7f11ff555f0b7d22e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libunwind HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libunwind" revision="4e3148920a40e9e1a99c7a442195def40d71ae37"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libunwind_llvm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libunwind_llvm" revision="1d927dd9793ad0a925729319ed325f97a75b7d47"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libusb HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libusb" revision="723eef28307737e21348b124234c18eba2038764"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libusb-compat HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libusb-compat" revision="759481ae400d02fe99488dcdcd653b4f8139a39c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libutf HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libutf" revision="853ef375ba2ce430f5b13b556812b2d83ccc82e1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libvncserver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libvncserver" revision="a33e8e96b55a6b047f073d119191a8a89c75cb06"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libvorbis HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libvorbis" revision="dee2e0a12822ec62c89c2d7582f1a7d32cd0875b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libvpx HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libvpx" revision="e00193cda2c096f5483e5c1026763d05785649af"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libvterm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libvterm" revision="6d78f36633063dad0689ca42be1ad8d0313ebfab"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libxml2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libxml2" revision="90559422b61c05e733dfad158cecd065c21b91fb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/libyuv HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/libyuv" revision="6905acd74d229efea000f67bed63d279933c7cd2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/linux-kselftest HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/linux-kselftest" revision="32a5e23a7e4202fb7b194b22eb3d96700b4758dd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/littlemock HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/littlemock" revision="481b1fc280bbb7c4e528df70864882fc59840ed6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/lld HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/lld" revision="26c9bb3b51a7ac4bc45f73d532a03cfd9982043a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/llvm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/llvm" revision="bc566e2ca6843f983487a2c3e905e73ff7399903"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ltp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ltp" revision="7eec8390669e239bde34871f3325088c8ba110e9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/lz4 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/lz4" revision="3a1be3794d27404f8a3f7977ec251f7a77bae793"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/lzma HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/lzma" revision="a30cb39298168b1e84a50a650e273891c75c612c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/markdown HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/markdown" revision="06a8f8b914d477183f68b84424bce8ff4dae7e84"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mdnsresponder HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mdnsresponder" revision="96d808009764bfb1ca6d3fb3aa010ca954d2b04d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mesa3d HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mesa3d" revision="586cfa78861e71160d5a3dbeaff09554829a1027"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/messageformat HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/messageformat" revision="907c6d3a0e6887fe89da48f51012d0c14d881511"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/minijail HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/minijail" revision="66adbb6ec6e33f6beb6847acc0bb87b0f2b80d98"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mksh HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mksh" revision="cd4c93ac8056fea52987df446033fd6049f61cb8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mm-dash HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mm-dash" revision="10c3ae1d659559831f46810bfa8d9ccdf293252b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mmc-utils HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mmc-utils" revision="f105db5bd1934f0c3e5f74bbc9a5aaeac7a6bf2b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mockftpserver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mockftpserver" revision="d2d467778a561725d42bc6c17e826e7ccf970bae"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mockito HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mockito" revision="3fe7f5624e158c47be80a2ad86f846e2d4fbf8ba"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mockwebserver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mockwebserver" revision="2440623105409d48ec0a3717bb6f3da711a0f15d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/modp_b64 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/modp_b64" revision="3c41c962af37d447ff1b1a8400c0912efd56fb6f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mp4parser HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mp4parser" revision="88bd0c6cfa7fcfbbebcc15c2c565f714cb36b065"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/mtpd HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/mtpd" revision="793cd4e6e35c96d74895a83101608c57b82a7c39"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/nanohttpd HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/nanohttpd" revision="c6783c32331b3fe78ffd5077e7f180995d0e268e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/nanopb-c HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/nanopb-c" revision="b225eb267957f24ca2aa2469bc78d418b2e9b795"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/naver-fonts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/naver-fonts" revision="91e6e9f94d1d769a8f742649674149ba98ce7d45"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/netcat HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/netcat" revision="b023a43765b15f0b0fd5b52b7d8021f515c59c23"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/netperf HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/netperf" revision="e100a0c4105b94f7044b243287a5da22f5e8e4e7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/neven HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/neven" revision="95e6c4663c640c67a69e1d2b44696753282136f8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/nfacct HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/nfacct" revision="4e23be5b152185261a6154679406a661b39de6f4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/nist-pkits HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/nist-pkits" revision="ca6b41c541f92f8e9c928561ff2b0890f337ada6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/nist-sip HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/nist-sip" revision="8445067c3b53e5bd56c32f1c4fb688083c4f4005"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/noto-fonts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/noto-fonts" revision="c8095cc628a4b227fcf23ddbf02f6c5b2ebef381"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/oauth HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/oauth" revision="49f3624a6d3307b640a012f15b94d04174473501"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/objenesis HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/objenesis" revision="344dc63ed35e22ee1d1e6a28a7ea09b9fd3115cf"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/okhttp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/okhttp" revision="2910c1937714acfe1776947347b563034938f6cd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/opencv HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/opencv" revision="c42a7f68da372776861437ea5a12a9ae54d934ff"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/openssh HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/openssh" revision="9c8dfdf49be51674d89f7688b949d71e0cc0886c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/owasp/sanitizer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/owasp/sanitizer" revision="bbfb25464ff30c5a62dce351d719a8c533afb2a3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/parameter-framework HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/parameter-framework" revision="247231a17211f56a96e6a595a9eedadc06231242"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/pcre HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/pcre" revision="bad2020f6c52105877762c3dd0e6509da4d984a5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/pdfium HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/pdfium" revision="299e59acfb60d7c9b103678f2174d7a6917a4d29"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/piex HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/piex" revision="170b9e81355476cbc581a7c7eeeba40ea35f3435"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/ppp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/ppp" revision="b870a67b1bedd7ac54655e1dae3b693e028ba268"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/proguard HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/proguard" revision="af893cdc1242e4cfbeeb10e2323f9a689a825177"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/protobuf HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/protobuf" revision="4555968d0b7e89ffb240cef020a52df62f4e6eff"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/regex-re2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/regex-re2" revision="79cce43a82abc1bc56c65de07a7df47d54e163a9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/replicaisland HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/replicaisland" revision="f8141d8f29324a67ecff1a9f597608dbfbce8554"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/rmi4utils HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/rmi4utils" revision="5acc3e7ec6ed784d757269f4a6323a156481468a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/robolectric HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/robolectric" revision="35304b89f61b383769b5de6ab3fc967e67639f1e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/roboto-fonts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/roboto-fonts" revision="2a7168beb58f28fcd1009419722246cdb34f9e1e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/rootdev HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/rootdev" revision="bddf3893836a014e7c2e664a50acd2e640f6f561"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/safe-iop HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/safe-iop" revision="cd76f998688d145235de78ecd5b340d0eac9239d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/scrypt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/scrypt" revision="aed3ac4c6bb550db63922831178d32468b4c6440"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/seccomp-tests HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/seccomp-tests" revision="fd35266681dbd1b5d992081c573227d5978aa5da"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/selinux HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/selinux" revision="d1687c40b45da8ce8e035519770f536258e2ea71"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/sfntly HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/sfntly" revision="a0398361a7595f031e4bbf416132bb56924164ab"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/shflags HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/shflags" revision="c4876e01829b8cf110ee33267bb1bad1f8ebb51d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/skia HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/skia" revision="1a559af156a89864dd036538c7a500d6aa1b3cbb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/sl4a HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/sl4a" revision="01573e51bbb8b8bf3bd87a375adc31a8a20452f1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/slf4j HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/slf4j" revision="6e9286aecedbe7e70ad9e5bcbb336ff391b18f5e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/smali HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/smali" revision="76ae801d96c2a0984cdf80201570ccd79c0b4c06"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/snakeyaml HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/snakeyaml" revision="fc00622a0dfdd34c9cbc51a171d591a6864df3dd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/sonic HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/sonic" revision="0227d834966b304525869d88fd20b2ac835df878"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/sonivox HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/sonivox" revision="c37fc0be064b497709b34121447ae8e95d281b01"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/speex HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/speex" revision="f82321254d6c22b7583fe7d05b751ed04290e51f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/spirv-llvm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/spirv-llvm" revision="60a7eaee1fc4dda9c90ab21ab91c8c9e7ccce3a2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/sqlite HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/sqlite" revision="6f90437c7c8b1a14c6620c8920e571322fdb9cf3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/squashfs-tools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/squashfs-tools" revision="5b4709ba460869ed66f971115acfa88425a3faf8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/strace HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/strace" revision="54aae756d22258e5a7f13126681f7fb36c6ba06e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/stressapptest HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/stressapptest" revision="ea469443e9c2cd1fda87188df2b1ffe0e30656b2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/svox HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/svox" revision="bd9252d49119699cb59c88cd226b8ccb7a2d2738"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/swiftshader HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/swiftshader" revision="44e01ffb62f5fedb4560364b97f90d60ca077b90"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/syslinux HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/syslinux" revision="76d05dc695b06c4e987bb8078f78032441e1430c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tagsoup HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tagsoup" revision="9c02d9f506855965ec513685788890dfc856a5bc"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tcpdump HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tcpdump" revision="ed6f17f367326dbcc87241e956474662f1e059b6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/testng HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/testng" revision="1d7bbdba751215e9cf52f1f92f3591aa4e9d5894"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/timezonepicker-support HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/timezonepicker-support" revision="99e91a76fd74bad10266623d67cdb98d011f709e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tinyalsa HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tinyalsa" revision="2c8d0df379c51aba62e10e626c8ea27a03f4eb37"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tinycompress HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tinycompress" revision="c16afecdb4f309c936ddd90aecf8162df0e47b87"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tinyxml HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tinyxml" revision="ec93b36ca41cbc0ec75b349c47ae5dadf3d24029"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tinyxml2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tinyxml2" revision="b8520284f87ba3803ed413ca411856d654850244"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/toolchain-utils HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/toolchain-utils" revision="3690e025de8daaed03c4acb02d2b054e5c4c0dd5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/toybox HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/toybox" revision="d261fd39bdd3e732014ee5d45aaa49cd274af66d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tpm2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tpm2" revision="d9818982c4e8d7e72c9fc1a64c0ad9f7d375d7c0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/tremolo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/tremolo" revision="b473518cef37c2c1ea776433582c94e0de8bc1dd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/unicode HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/unicode" revision="d8a537a23c9d38def89be7f42dd692946bf763ef"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/universal-tween-engine HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/universal-tween-engine" revision="75d2d4e1d27ca8ccf0fd7dc4456b0a3dcf509dd2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/v8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/v8" revision="390ab1bd3bf6ca417dd660abd02fdb7661c32b39"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/valgrind HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/valgrind" revision="d02a1bda402f6e8910ab0803f396ecaf4a300cc9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/vboot_reference HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/vboot_reference" revision="c7834748f90cdffed126ee598cfc2cb75a191961"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/vixl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/vixl" revision="fdce1c11c96b152ca33eaf21841cc23fa63c62ca"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/vogar HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/vogar" revision="31062d1531c0f61bf1a18c59b69f491b8e2ecf42"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/volley HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/volley" revision="cc450f2af9e8d74d134883e3085688eeca34de38"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/vulkan-validation-layers HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/vulkan-validation-layers" revision="a7639e9f571f98afc71e638e0f06d56cd0b80976"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/webp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/webp" revision="2d74869a1f8cb28cabcf0ed1a7849146d5c97293"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/webrtc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/webrtc" revision="96e17a888ba7d4297296abfd57621dc6b804bfee"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/wpa_supplicant_8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/wpa_supplicant_8" revision="a9710e3fdf2315549457d372f727e417c292d84b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/wycheproof HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/wycheproof" revision="46d28ac44a242d84d610a294a640266d3b0e033b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/x264 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/x264" revision="7bf0b975cdfd5692a4598ab09e1258abe5ea5fff"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/xmlrpcpp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/xmlrpcpp" revision="c79d4eae757a81270915c2a7cf01c81b8d42785e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/xmlwriter HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/xmp_toolkit HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/zlib HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/zlib" revision="fbb79a95cece01e769deade11a7185b335f35d85"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/zopfli HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/zopfli" revision="069cb023c39358bc0e1b3dc0397b8fcdd84b4d44"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/external/zxing HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/av HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/av" revision="4c1f9248201fb1e3d68f8497ddf40c7b445eba89"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/base HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/base" revision="46fa748bc06f7cf638a608fe3ec5796bb868f658"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/compile/libbcc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/compile/libbcc" revision="ecaad1ea03338005274b7653f8f73ff23f7ead09"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/compile/mclinker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/compile/mclinker" revision="1a387ae7d3fa67723fdcfaa17ea353e8adc11834"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/compile/slang HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/compile/slang" revision="7b17734efd3250af9fb5f7d837184798aa7e49d5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/data-binding HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/data-binding" revision="175abeab8f0446fabb32eb59488f13f374c75d67"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/ex HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/ex" revision="4b0478f92d5f1e46a10ed60128355604555fa269"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/hardware/interfaces HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/hardware/interfaces" revision="8b7e0f193c98a1d0a76f91cfa777b13329dcc76d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/minikin HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/minikin" revision="f0103573c7924699bb1af9488f7879f31b2be1f5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/ml HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/ml" revision="22842969ee6dd0d3447b66d61007ad91d4593671"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/multidex HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/multidex" revision="accfdd6b24602c40fdaf13d67ef6ad8c94779241"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/native HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/native" revision="6ddb238dc0d5d228566994c13684671890fd7346"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/bitmap HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/bluetooth HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/bluetooth" revision="549fb3bb64cd9fa816fc7f50c073fc2310d2dbd6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/calendar HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/calendar" revision="397f1e5be11362ce66864075388a721e322d5839"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/chips HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/chips" revision="66766fdfa55d2fccb56d1b4ea9023a11f60bc185"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/colorpicker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/colorpicker" revision="a7c3ea2c46959b88600a21cdf3e1d4ed74d0e789"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/datetimepicker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/datetimepicker" revision="d1740e5eabfd76472c4e4f2fe5997a85bbd27689"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/emoji HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/emoji" revision="92eede13edbf22b501edb9aeb92366f91eab9781"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/inputconnectioncommon HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/inputconnectioncommon" revision="3baece9b20fa480da46d860acd7320fd9eee3386"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/inputmethodcommon HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/net/ethernet HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/net/ethernet" revision="493579730dabf7200a81f93ab3bc158e908f08e8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/net/ims HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/net/ims" revision="7ccaa6d3a1f5ae95f836966f90fb92e55158e84c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/net/voip HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/net/voip" revision="68a4203ed859d3f4789f1805d0590255827046c4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/net/wifi HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/net/wifi" revision="bdce44d008b024e0d345054acec03dbb44cbbc2f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/photoviewer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/photoviewer" revision="e1a73300817449665c695eba71d29ec86984f30a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/setupwizard HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/setupwizard" revision="03960ebe954d418f9c4c27c0649d397bf38fc0ca"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/telephony HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/telephony" revision="3cc1bfede601f6f780213fdbb75a09890efdfd95"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/timezonepicker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/timezonepicker" revision="879c19dff7d40d943cebef0711f86a6343691f54"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/opt/vcard HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/opt/vcard" revision="332576be9b7e30700e9dd263e532a048b5a6f61c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/rs HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/rs" revision="5b871f1813d8a51232bc75e8b8b250ba7a50a0c7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/support HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/support" revision="eac84fb3c486cae892f4f314733f6756c6f375d6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/webview HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/webview" revision="1a52f8bf1e846cb3a086a5028751880c91866606"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/frameworks/wilhelm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/frameworks/wilhelm" revision="d1b09f4349473b5e3fb9f2825a5bee923280df6b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/akm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/akm" revision="99e8b227cd00678ce863c04ebde0b8d9a6f7df5c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/broadcom/libbt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/broadcom/libbt" revision="e8f0dd9518897b4f4d80418dff063567cfab133e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/broadcom/wlan HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/broadcom/wlan" revision="ed1ff224e1dd69e698d913dbf581e0c697f99543"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/google/apf HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/google/apf" revision="3a229e4ca91eaf502357b584b469b8b287f7430f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/interfaces HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/interfaces" revision="af84853a7f0991e8f5320b55f585ab4e52d7b3a4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/invensense HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/invensense" revision="11e5ff75af866f91622b6008fa13db1c3685ae69"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/libhardware HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/libhardware" revision="4a6d22d375201133021e2f72737311e89f27016b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/libhardware_legacy HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/libhardware_legacy" revision="c05d5d012574b814a2d94b1b2be7b4b6cfcca08c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/audio HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/audio" revision="279bc6cb75f9dc724863760a3876245d5851531d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/bootctrl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/bootctrl" revision="db3f7e36b1aaa697df423019a143da5ba0d0c042"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/bt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/bt" revision="37754a9c6cbac9bf02a7e591f18951c36a6a9492"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/camera HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/camera" revision="002aabcede1c05a38ab399be965af808d2940370"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/display HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/display" revision="f45e1f7bd19dadb5ceab884da2feb133a4a80989"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/gps HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/gps" revision="cf58a619d20cf7595d39014f33464e309e7b28e8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/media HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/media" revision="de73bdada5fdd4d2b6e04027ef7b2a9923376303"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/thermal HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/thermal" revision="a7ecf53c682ab8d53c29097c9b88a7489b0d4385"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/vr HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/vr" revision="bbdc971acf2803f5c0fa74fc2dba01ee3cd59d83"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/qcom/wlan HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/qcom/wlan" revision="4c4f6510060b7ca4c7a251270b7458eda4c6b08a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/ril HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/ril" revision="cbe07eb7212b0da8ebf7eee01f603008997666db"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/hardware/stm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/hardware/stm" revision="73e2858450f68017c06ce78802268a917dcd13a0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/libcore HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/libcore" revision="c348956193b5e4738b473221f1474c530a87e764"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/libnativehelper HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/libnativehelper" revision="8a74a54216b30efd97414910c97efa6903dc952a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/BTProductionLineTool HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/BTProductionLineTool" revision="373f13dbe7f8030891a6ea82ac2a44c0de7f7957"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/BasicSmsReceiver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/BasicSmsReceiver" revision="44b6b0242cc6d683861203abb87634d2ba0308f7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Bluetooth HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Bluetooth" revision="732a20a4dc183e66c792dd763672778ce6f0abd2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Browser2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Browser2" revision="ec236545477c50891862ca9affa04cb04a2a6069"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/CMFileManager HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/CMFileManager" revision="29c95f9cce5a3a6a37e4eba936bb6bfeb1a24ec0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Calendar HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Calendar" revision="ba9f8d5fca565550d32e842c3912fc45e3df928d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Camera2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Camera2" revision="0d784bdfa315250ab768fed5c2c8938c8bad49a2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Dialer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Dialer" revision="dd926b75033fa1b722fc22640eb332eb4d36665b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Hvac HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Hvac" revision="0ba2d7c1359634cccecd02394792d7d9ca2cc81b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/LatinIME HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/LatinIME" revision="14933140d204afe3945f13753d7b36832c2de319"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/LensPicker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/LensPicker" revision="a04019f6b9bbe925a1c9f79fad877b00a68a1610"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/LocalMediaPlayer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/LocalMediaPlayer" revision="bddc85a76f58e468ff777f3d5a03823c50af92f0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Media HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Media" revision="59f05fbc00707f6ff62e19bbabb9ca92514b357a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Messenger HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Messenger" revision="6d846d4e0f8b99d2fcd6912e09f231658461d034"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Overview HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Overview" revision="f6b3e8ba62d070b0870eb9b0e70aa34bb7c363a9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Radio HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Radio" revision="fea8884e0189eb6e5dfa7ecf43fe42ff4afb26e7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Settings HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Settings" revision="b7e3bdd6f6658b8cce43eb446c7e4281a6f36da8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/Stream HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/Stream" revision="c19ea2d878bf135e36151e6d313eee8b1b743184"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/SystemUpdater HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/SystemUpdater" revision="3506f3f39a1328465009ec080a741373b338bead"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/UserManagement HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/UserManagement" revision="240360dcbcb2ed46c1f4a16615e87ceafd0d6419"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Car/libs HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Car/libs" revision="c365871db5df5440757f31535ff78b35c1903c7f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/CarrierConfig HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/CarrierConfig" revision="eac8c7d7366341a3de85244d8ed5b5e78f78cfb0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/CellBroadcastReceiver HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/CellBroadcastReceiver" revision="754f00cbd33a119a7ca984d34ad88ea62d81df3e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/CertInstaller HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/CertInstaller" revision="2f4c2460ddf927f19ccd3d2d577ff61ad3608e36"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Contacts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Contacts" revision="0b66e55bfa6d483865c0ef01d0975d8fe364877b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/DeskClock HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/DeskClock" revision="71ec842d209d198ccea563ab4862e28af2c6e78a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/DevCamera HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/DevCamera" revision="e4d7dcd2fa0285db0f0b2ebeac663b2524f47e80"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Dialer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Dialer" revision="4a3c43521356231dffb89ba1dd21d66cfb5d61de"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/DocumentsUI HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/DocumentsUI" revision="33f2f0bb182080069eb7b08517fbb46bd6bcf5f4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Email HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Email" revision="d37a78b7ac4d48a99b63ce76c4542f9e1de81f86"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/EmergencyInfo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/EmergencyInfo" revision="20cbaaff82bc766c280e8ba3a64b69104cd29fc1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/ExactCalculator HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/ExactCalculator" revision="610c7e11160596f2d8425aa855e24d63ce446bf6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Exchange HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Exchange" revision="fd4abb641be3a688b5d5e7cc744a72aa2e8d9e21"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Gallery HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Gallery" revision="e578e9a9d06fddcb2e931c0d25b1058f5e609a14"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Gallery2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Gallery2" revision="8066ac52e8e044c8cf111d1b44557a1919584078"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/HTMLViewer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/HTMLViewer" revision="ce1ff9cca35d9484ce16d711cef7bcb3fa62ee72"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/KeyChain HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/KeyChain" revision="8a0e89ab5f63efa18e0859ac3dc29df04613f49c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Launcher2 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Launcher2" revision="540b89cc1315f22d2052e4270059ddff4cea753d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Launcher3 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Launcher3" revision="8cd90892c5f29c25158d85a42111dea7a6605996"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/LegacyCamera HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/LegacyCamera" revision="ee1d49c73564fea007b4c5f9c8a5ad203e904d52"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/MBNLoader HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/MBNLoader" revision="299e9f030ef62bb9efbe4006a1ec96f88b3cb72e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/ManagedProvisioning HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/ManagedProvisioning" revision="c0e777031075bf7a28663cb7c40014d3983786ce"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Messaging HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Messaging" revision="a14b22ae04751af9f4dc84802f6a6a67a95a48fc"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Mms HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Mms" revision="8e32555e34a4a79b146429ecdc05ddd0f9c4b52d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Music HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Music" revision="2122d57285768cbdf7fcf61806c396ca816c6be2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/MusicFX HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/MusicFX" revision="edd73d5f1512aee4934b35a8d3afee243c1c0168"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Nfc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Nfc" revision="700decafc5e7b179e213e5c73d353bc6677f6871"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/OneTimeInitializer HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/OneTimeInitializer" revision="6e2874634b853a523b2c7a0d5158d38372923597"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/PackageInstaller HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/PackageInstaller" revision="cbc47872806aa4816143c3f1830f0d0f1aa82d9d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Phone HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Phone" revision="79731f02b7009206a01182d2cca15dfc8491da09"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/PhoneCommon HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/PhoneCommon" revision="82a77e69fd5ab2c66e83f1cb6cd2620d4c13c35a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Protips HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Protips" revision="bfa3c5f9851111c978a7cbda9d2e65dfbcd7dd4d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Provision HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Provision" revision="6e532c96c75f714c3b7c334c895e35b3958f976f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/QuickSearchBox HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/QuickSearchBox" revision="690425dc5c731ee853734d8405f4576d498b0f6b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/RetailDemo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/RetailDemo" revision="c5b38e7b2a33d2b5675e61ae085d6b9732e65a80"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SafetyRegulatoryInfo HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SafetyRegulatoryInfo" revision="0d7ba453d963e68c391e874954307f4cb49325a6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Settings HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Settings" revision="e422168b31a14db470051505cf8e113919dcd10c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SmartCardService HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SnapdragonCamera HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SnapdragonCamera" revision="2f1e41bd12b5ee5dd593e4a0f34e7a564f8a4999"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SnapdragonGallery HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SnapdragonGallery" revision="972fa8d1a3698cd6ead715009a8336c2c8662f14"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SnapdragonMusic HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SnapdragonMusic" revision="b07dc9a217211f275e0fe0f5fe37361bf95b81a7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SoundRecorder HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SoundRecorder" revision="9531d65ed0c8da7cb647ed501541cef0b5727dda"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SpareParts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SpareParts" revision="f47fff0421153f4c20d155df8d0864a7036bdb06"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/SpeechRecorder HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/SpeechRecorder" revision="51cc8462c082a26810f5d7c5a2648232a77e795c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Stk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Stk" revision="1a110b8fa63acc40cc33bd9612c7727fd9eafd26"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/StorageManager HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/StorageManager" revision="9a30a1ad3d9adc7a1e53ebf89b5c10665f26868c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/TV HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/TV" revision="be388584fd6604a5ad0b5031b8ceac5b18d84d19"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Tag HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Tag" revision="16230c39b3cc3caef23a9f3ac2f01c1974a94956"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Terminal HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Terminal" revision="79b9ef2730ff0acbba9eb4d14d3592e7f2e25e3d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/Test/connectivity HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/Test/connectivity" revision="01029f31b83eaa5f761f3f502332a883414d9e15"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/TvSettings HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/TvSettings" revision="39d0def59972f250f0fdc4d1f7ec176f4002aded"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/UnifiedEmail HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/UnifiedEmail" revision="79d8c1fe31ae136ac49d025153435e37173e0ca9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/apps/WallpaperPicker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/apps/WallpaperPicker" revision="b241483c0881994bcfbb2d643c1f35a7ebcd43b0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/experimental HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/experimental" revision="5d7d053652f2edbca5e6a0bbbee555df5405520a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/inputmethods/LatinIME HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/inputmethods/LatinIME" revision="85ff39554203b21856f23f155ea328b4dbe8deb5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/inputmethods/OpenWnn HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/inputmethods/OpenWnn" revision="61902845f80c35fa56c736219efb14dacd0cfda3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/ApplicationsProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/ApplicationsProvider" revision="33d26f5eedb3d3011762ce5b2de66e931bf64b35"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/BlockedNumberProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/BlockedNumberProvider" revision="a74d58bd8a7ddbb76659e273efbdc4afb79314d8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/BookmarkProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/BookmarkProvider" revision="6ec4bb392332b12162c5a8a1eaba1ee34d389c5c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/CalendarProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/CalendarProvider" revision="11f3315c17cf89200852eeded7d63d7e6016194a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/CallLogProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/CallLogProvider" revision="efac83e3f9fd5f49ad0ddb38c82aeb9ceff798e7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/ContactsProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/ContactsProvider" revision="bc2891447a93aa0296cb66cb3ef0ae5fe6b85a87"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/DownloadProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/DownloadProvider" revision="cd43a14aa3f3352d5ab8c68e1d5ce2f1270a73a1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/MediaProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/MediaProvider" revision="403b4b1b657d19eb5e3273c8523cf41d77241d7f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/PartnerBookmarksProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/PartnerBookmarksProvider" revision="5b8a1aed81168b5bdf49beedde644a388cd772fd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/TelephonyProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/TelephonyProvider" revision="ca138440d735a5a69917e58daaeef555e3741cbe"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/TvProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/TvProvider" revision="287da0d2408a524b2da42e25d9daf6d67882fc57"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/providers/UserDictionaryProvider HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/providers/UserDictionaryProvider" revision="c61704db31aa34d2ff3c884efe4718f4339dfc6b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/screensavers/Basic HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/screensavers/Basic" revision="8c3e4fc59e750b13e937321b0e6c048212e21d67"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/screensavers/PhotoTable HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/screensavers/PhotoTable" revision="617caca44aa3dfea44e79911b6885a36f1c8a6aa"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/screensavers/WebView HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/services/BuiltInPrintService HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/services/BuiltInPrintService" revision="7bb17953864cbdcc0bc886c79240c8b302e8a190"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/services/Car HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/services/Car" revision="6d988c1e02f44216c48e337480e0e354716462bd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/services/Mms HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/services/Mms" revision="3167e30689793ced60626ee1b48c9c07d6b7419d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/services/NetworkRecommendation HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/services/NetworkRecommendation" revision="b377d482e89c1e908636f8e9564cb0a21996df41"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/services/Telecomm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/services/Telecomm" revision="063cec0d4c73be1e2299729b25ca7ad7dba31b0c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/services/Telephony HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/services/Telephony" revision="abb1919bc201d0c2e93bf65f239fe5ef3bee25a1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/packages/wallpapers/LivePicker HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/packages/wallpapers/LivePicker" revision="455f67e9ddb631fe9c68184fac0c95bd2d88eeb1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/pdk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/pdk" revision="608c80a33e45d53a2496bc67fdf11ecdb266ffdf"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/platform_testing HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/platform_testing" revision="978b25d0a225a6c1e4e25045f720d082d9e777cd"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/abi-dumps/ndk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/abi-dumps/ndk" revision="55e16cf68bd51e0fd0cf9ce1ec212bca4f440a5b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/abi-dumps/vndk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/abi-dumps/vndk" revision="07614c775a21d442106856cf8937f6243ab9171e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/android-emulator HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/android-emulator" revision="da073b124d926d21b991d7c2b2ff4b1f95862777"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/build-tools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/build-tools" revision="1253c8897ebacffb2f89da2fd70e89306a23f1b9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/checkcolor HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/checkcolor" revision="f6f661b424f646bc5ddf9e1b1e644abb492b7547"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/checkstyle HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/checkstyle" revision="b782f222d5ad3c1250acb12260f2ddaa0935ca46"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/clang/host/linux-x86 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/clang/host/linux-x86" revision="1188dcf30923cb444143ffa4b83dc951037e76a5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/deqp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/deqp" revision="4ee1678f3cfd31a9ee5f69df3155ad7437bd09ee"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/devtools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/devtools" revision="4c3b19c11bed6972f2ebf758af4025607b41b11b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/eclipse HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/eclipse" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="d7d824eaa0690179c4b504209dbb017dfc730cf3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="0f5ac4a0fb21cff9cdd55c858380f426f8e5fd1b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="a93d2d3736c481ed4722b3800233b772da701084"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="73ca99196723f810dad42390d154654354f57c16"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e76a9a506d7ad132f107eb2f7c27b6a8ccb68b91"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="1de7f0f941efde58c8806a30a8dccfaf6ccece74"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gdb/linux-x86 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gdb/linux-x86" revision="4adfde8bc82dd39f59e0445588c3e599ada477d2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/go/linux-x86 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/go/linux-x86" revision="efea46b87b2dcc66da02dfbf66fd901d24c7a091"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/gradle-plugin HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/gradle-plugin" revision="e04ee072ca5b42e51228a20d7cdc56a62828e9c3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/libs/libedit HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/libs/libedit" revision="d32685dba4011664b590b94ad156bc734c2c9bb5"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/maven_repo/android HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/maven_repo/android" revision="1b392d94924cc2c6d3f947224001553bdcc4a34d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/maven_repo/bumptech HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/maven_repo/bumptech" revision="ad29fe1a1b86eacbd04ac4ab23b90f38ca099f77"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/misc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/misc" revision="b0597aa7e728025aef944dcd16d959213393c034"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/ndk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/ndk" revision="11cd02dfb91661c65134cac258cf5924270e9d2b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/python/linux-x86/2.7.5 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/python/linux-x86/2.7.5" revision="edbb763a2b63074cd468a5d33a17908b2cc06541"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/qemu-kernel HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/qemu-kernel" revision="60b9652ee538733ffc095329e662338992997025"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/sdk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/sdk" revision="da1bfed62ae628935e448de47bd066fb7fcb055a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/prebuilts/tools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/prebuilts/tools" revision="1e659fe4bea098fcbfb29f9b8d60bfa7fe730609"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/sdk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/sdk" revision="66f0813aa7b41a5431082dda5ecda4c3abdf5a12"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/bt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/bt" revision="72306667e553e82a6218dbe11713a11d0b2df493"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/ca-certificates HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/ca-certificates" revision="9301366a5d6970863a22ea7babc732456e74a7e1"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/chre HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/chre" revision="4c31e1f6b1aa9edd7064fcd5ffb1590ad9ce558d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/connectivity/wificond HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/connectivity/wificond" revision="44c39c031947653163b7def01a37577deb8118a3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/connectivity/wifilogd HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/connectivity/wifilogd" revision="c95b2cee999918ee5eacf52e70e55a47c78d7b5c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/core HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/core" revision="e7d4297e53baed612426083bf5ff9e36ef119954"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/extras HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/extras" revision="d73dc7f88ce6f3b9fa141615870e4e2db22a7c23"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/gatekeeper HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/gatekeeper" revision="84f8f9fdc2c779ffd938e730d7e950c3958d799e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/hardware/interfaces HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/hardware/interfaces" revision="5c1ec32628e4030e66cde9a06d016f082b9e42f8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/hwservicemanager HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/hwservicemanager" revision="06d862a096e91756ab3d3f686d047767ef320348"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/keymaster HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/keymaster" revision="476f3d26c1bcc9eefed3942bdabd4c2f31542411"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/libfmq HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/libfmq" revision="ee00ca771d4174784ef9a730469d9f717e6a82ff"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/libhidl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/libhidl" revision="63cab8e8be39afaeea620fae2dd7cbed83406464"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/libhwbinder HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/libhwbinder" revision="4ad3d110fafd25186afc04797aff5741c95b02e4"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/libufdt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/libufdt" revision="733c877c1cdd36055fd4232157ae4e0cddeccd85"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/libvintf HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/libvintf" revision="2d396a52fdb3d0d617d2bbe2421c087eeb358295"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/media HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/media" revision="e913e4af40a0fcb6e64d5f6b3b0af7559be2a736"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/netd HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/netd" revision="9ec6bec5137173c14f87790479c6e04ab5ea7003"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/nfc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/nfc" revision="d66b98cac43d52323d46e0cb0ce364f38e1e1527"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/nvram HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/nvram" revision="7a2facb0c44fe85fc5e05782c3488cea629d58e9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/qcom HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/softap" revision="c04dba75186574cc1589498118149fd19d78f9eb"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/security HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/security" revision="4c7aa04c91228702155745e357bbe5627111c69a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/sepolicy HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/sepolicy" revision="ce0ff05e2d38b8aa98ea0524ca8d490bf05fda9d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/tools/aidl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/tools/aidl" revision="821e1d8b5f17415a51330b2fecbf5b2493376eb7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/tools/hidl HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/tools/hidl" revision="f16fcb68b33f429cf6515a3087c8acf4791df257"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/tpm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/tpm" revision="987689803d813efb9b011236a7853c8f3edba1f6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/update_engine HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/update_engine" revision="957619a1ed73bf42448ed5aedf637ef72662f411"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/system/vold HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/system/vold" revision="fbfd93a376a466aa7f54cf7afc6cf84b05a4bdf2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts" revision="288f33da81de9d4c5e648c618da946469195f4be"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/fuzz HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/fuzz" revision="665101c781a46f03486e7b6606a1475343acc3f3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/hal HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/hal" revision="a3381207689425c19a702e831fb1c57764939811"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/hal-trace HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/hal-trace" revision="f38ec699e993eab3d2c7f6bc6734a31fdea94033"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/kernel HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/kernel" revision="503600770dd17bef6f2d0c9562668165ae93ac3d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/performance HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/performance" revision="0e5550a2289c39862b6afbe986d7af3fea689a8b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/security HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/security" revision="3950c8bc23c1c809296f266546c25601ed91c336"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/test/vts-testcase/vndk HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/test/vts-testcase/vndk" revision="0967dfc09c3fcbcc0123823825d76663172146ae"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/apksig HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/apksig" revision="3f9953079b7b1bb6f9443215c9173e4225d017da"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/external/fat32lib HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/external/gradle HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/external/gradle" revision="01eafe283102ebb395c7cc0c22d258fd657c7af7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/loganalysis HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/loganalysis" revision="7999c292524060f60d2657998b2fdda7fb142b07"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/repohooks HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/repohooks" revision="b8105629a8944a69eb058f0d15464bf3aec86103"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/test/connectivity HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/test/connectivity" revision="4a55cfc96f917a4b7370cce40f383b82d03f3444"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/tradefederation HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/tradefederation/core" revision="239559cb7209ac0c68489cf2384bdb2fa484cd16"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/tools/tradefederation/contrib HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/tools/tradefederation/contrib" revision="49c314830786191420f5abfa42ca0fc0cbd33cca"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/codeaurora/telephony HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/codeaurora/telephony" revision="6cd92b8aa0d247184d50f3d379fcb6982011ca4b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/fpc/fingerprints HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/fpc/fingerprints" revision="540f07073e74afe460b7dbefed393eff11d05fe9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/goodix/fingerprints HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/goodix/fingerprints" revision="ab9fd02a518e9b66be7c56a3dce7f7430eddc304"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/nxp/interfaces/opensource/nfc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/nxp/interfaces/opensource/nfc" revision="7d6f730ccf9f9d76b05c4366abc69d2ef3bee615">
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/nxp/opensource/external/libnfc-nci HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/nxp/opensource/external/libnfc-nci" revision="a258d58855b7021abb401d430bd28a6040726bf6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/nxp/opensource/frameworks HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/nxp/opensource/frameworks" revision="99c1d2b7635e49809e8455b8e3c615bcee567085"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/nxp/opensource/packages/apps/Nfc HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/nxp/opensource/packages/apps/Nfc" revision="32b01107dc86b92567d6ebb78bd2ba7421c305d6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/bluetooth HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/bluetooth" revision="b31fe72ce477b86f5f1daa4bf15062519a1b801c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/bluetooth_ext HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/bluetooth_ext" revision="bf81f4774df2aa4256432b5c4da170daa050987b"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/data-ipa-cfg-mgr HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/data-ipa-cfg-mgr" revision="8eb448a563ac7c5e86bd45f6c65e81554aed513a"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/dataservices HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/dataservices" revision="88d64bb1699780df7d0c7f16f8d63ab2d2673cf7"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/dpm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/dpm" revision="e17a0e7f08d03ee49769f810a032bafaaf5311b3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/fm HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/fm" revision="b7536b2084d2653a92cc4eebdd276339b876268e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/fst-manager HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/fst-manager" revision="414a6589405a26d30fc1eab98b195ba3414d7c38"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/interfaces HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/interfaces" revision="293af35cd5506455a04a59a955a30628a306ea55">
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/location HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/location" revision="b29b640ee5113e3d25b1ac46235b5aa8442a1f36"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/mmc-utils HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/mmc-utils" revision="053754b3d2550699c3a70eedbe655268cfeeae6c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/rcs-service HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/rcs-service" revision="5dccbab946b999207ff3ceb3ac5f3afea6669775"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/shortcut-fe HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/shortcut-fe" revision="214ece874ced71fcbeb2fbc0a218b0824be60c34"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/time-services HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/time-services" revision="4a916f792ee26e8af67c69057ce1068dbb737e84"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/tools HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/tools" revision="a5c583120c4d9cf91c4f0deaa053535a09d5aee0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/wigig HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/wigig" revision="f4b6a07f5474c404c7fefca288944184ade066ab"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/wlan/fw-api HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/wlan/fw-api" revision="a177ec58a815921c99c198abbb1475a0bd65d992"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="82ed3b443354d009cc24595edbd6fc9e02a977c8"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/wlan/qcacld-3.0 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/wlan/qcacld-3.0" revision="19710fa7f6359ce858271e5174b963d4a2c53b99"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom-opensource/wlan/utils/sigma-dut HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/opensource/wlan/utils/sigma-dut" revision="ff3b4d32fb3420c6e3d50c81543df95986df0e14"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom/cobalt HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/device/qcom/msm8998" revision="de6979a928ef231b5681126c5e5fac24f167e028"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom/falcon_32 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/device/qcom/sdm660_32" revision="702e09272158b5f8651e652d32af5970da9082c9"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom/falcon_64 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/device/qcom/sdm660_64" revision="9258aaaeb90dc43f3968aa19d64f1021561a2556"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/qcom/thulium HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/device/qcom/msm8996" revision="b61da11eb8834b1132d700150ae6b05295c9347c"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/GPSLogSave HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/GPSLogSave" revision="6434dabadded6884dfb58df065326bd9e4d3309f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/common HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/common" revision="afc85bdeb06a9bb8aa4afbc186e1f6ef0a77edf0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/display HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/display" revision="bf6767d8fe13b301973cb42f4cbf04d43f1142e2"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/event_injection HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/event_injection" revision="266bbdbbf6ad5bcc7595ca898bf12390a13b377e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/interfaces HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/interfaces" revision="c51b998b9ce89d94b9cd1e816b9fdb1d36e6601e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/minidump HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/minidump" revision="1fefbc1731eebe8af0154df3eb338fe997280a16"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/mlipay-client HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/mlipay" revision="4cd8b10bb02d05163a271eac8ef9f8dd8c71cbb0"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/mmbn-daemon HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/mmbn-daemon" revision="7952c5937fbda726deb8d824ca2f2890a2d2e6a6"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/mtdservice HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/mtdservice" revision="19deafd1c45eb46c1de3f26b311d0093c477905f"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/secureauth-client HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/tidaservice" revision="67f93fb88be8c853c7e3b28b569d8d7a25382d41"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/proprietary/vsimapp HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/proprietary/vsimapp" revision="7b23479b2a62844ce885be7f8611ce054234c022"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/platform/vendor/xiaomi/securebootsigner HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/xiaomi/securebootsigner" revision="63a0ff805286a273cf09c3d943622f0f50da0fd3"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/toolchain/binutils" revision="584d0f7d1b9a096948fbd750dde4c760e5e0ee0e"/>
+  <project clone-depth="3" name="vendor/qcom/fusion/tools" revision="a39a23fb53414d2c5a1cfc624c9cc1f4d248462d"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/vendor/qcom/non-hlos-sdm660-spf21" revision="ef4164edf04405d69706c4d6dc48e9e9ca995c6e"/>
+  git push ssh://lijunwei@taishan.n.xiaomi.com:29418/vendor/qcom/proprietary-sdm660-spf21 HEAD:refs/heads/nitrogen-o
+ cd ~/E4/native/vendor/qcom/proprietary" revision="912dabed5a5d3e52651525511e31b69f753b3356"/>
