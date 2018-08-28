@@ -91,4 +91,5 @@ turtle.fd(60)
 turtle.right(90)
 turtle.circle(200,60)
 print("Draw rose over")
+print("git is good tool")
 
