@@ -1,8 +1,0 @@
-2018-08-10 18:02:38,746 [DEBUG][outlook_unread_email][get_unread_mail][29] self.mail_count:845
-2018-08-10 18:02:49,750 [WARNING][outlook_unread_email][main][105] exec failed, failed msg:Traceback (most recent call last):
-  File "D:/work/practice/outlook_unread_email.py", line 92, in main
-    readOutlook = ReadOutlook()
-  File "D:/work/practice/outlook_unread_email.py", line 26, in __init__
-    print(SD)
-NameError: name 'SD' is not defined
-

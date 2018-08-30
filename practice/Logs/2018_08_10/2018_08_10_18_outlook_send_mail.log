@@ -1,9 +1,0 @@
-2018-08-10 18:05:05,532 [DEBUG][outlook_send_mail][attachment][73] Attachments size is more than 20M, can not send with Outlook Mail
-2018-08-10 18:05:51,784 [DEBUG][outlook_send_mail][attachment][74] Attachments size is more than 20M, can not send with Outlook Mail
-2018-08-10 18:05:51,800 [WARNING][outlook_send_mail][main][109] exec failed, failed msg:Traceback (most recent call last):
-  File "D:/work/practice/outlook_send_mail.py", line 105, in main
-    outlookMail = OutlookMail(recevers=recevers, cc=cc, attachments=attachments)
-  File "D:/work/practice/outlook_send_mail.py", line 36, in __init__
-    print (SD)
-NameError: name 'SD' is not defined
-
