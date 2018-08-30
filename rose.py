@@ -95,4 +95,5 @@ print("git is good tool")
 print("adfggh")
 print("switch dev branch")
 print("add factory branch")
-
+Creating a new branch is quick AND simple
+Creating a new branch is quick AND simple
