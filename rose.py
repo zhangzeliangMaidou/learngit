@@ -95,5 +95,8 @@ print("git is good tool")
 print("adfggh")
 print("switch dev branch")
 print("add factory branch")
+<<<<<<< HEAD
 print("add new branch of feature1")
 print("add new content of master branch")
+Creating a new branch is quick AND simple
+Creating a new branch is quick AND simple
