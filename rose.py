@@ -90,13 +90,3 @@ turtle.left(180)
 turtle.fd(60)
 turtle.right(90)
 turtle.circle(200,60)
-print("Draw rose over")
-print("git is good tool")
-print("adfggh")
-print("switch dev branch")
-print("add factory branch")
-<<<<<<< HEAD
-print("add new branch of feature1")
-print("add new content of master branch")
-Creating a new branch is quick AND simple
-Creating a new branch is quick AND simple
