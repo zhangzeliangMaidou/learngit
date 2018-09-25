@@ -1,4 +1,6 @@
 {
                   "name": "Tom",
-                  "age": 23
+                  "age": 23,
+		  "sex":"man"
 }
+
