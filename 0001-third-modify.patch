@@ -1,0 +1,22 @@
+From 71efe5613c952937460195bbd603615c9e55b085 Mon Sep 17 00:00:00 2001
+From: zhangzeliang <zhangzeliang@xiaomi.com>
+Date: Sat, 1 Sep 2018 16:44:15 +0800
+Subject: [PATCH] third modify
+
+---
+ readme.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/readme.txt b/readme.txt
+index 028bfa2..64600da 100644
+--- a/readme.txt
++++ b/readme.txt
+@@ -6,4 +6,4 @@ fix sssa
+ 
+ fix issue-101
+ hello word
+-
++third modify
+-- 
+2.18.0.windows.1
+
